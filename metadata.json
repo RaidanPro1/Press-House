@@ -1,7 +1,5 @@
 {
-  "description": "NGO Website for Press House with Stats, News Management and Barcode Scanner.",
-  "requestFramePermissions": [
-    "camera"
-  ],
+  "description": "NGO Website for Press House with Stats and News Management.",
+  "requestFramePermissions": [],
   "name": "Press House"
 }
