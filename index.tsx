@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
 import { 
@@ -114,6 +115,8 @@ const translations = {
       introTitle: 'هويتنا ورؤيتنا',
       title: 'نحن حماة الكلمة الحرة',
       intro: 'مؤسسة يمنية مستقلة تسعى لاستعادة كرامة الصحافة وحماية العاملين فيها.',
+      // Added missing introText property
+      introText: 'تأسست مؤسسة بيت الصحافة لتكون منبراً حراً ومستقلاً يدعم العمل الصحفي المهني في اليمن، ويوفر بيئة آمنة للإبداع والنمو المهني.',
       vision: 'رؤية طموحة',
       visionText: 'صحافة يمنية مهنية ومستقلة تخدم الحقيقة والإنسان.',
       mission: 'رسالة مقدسة',
@@ -202,6 +205,8 @@ const translations = {
       introTitle: 'Our Identity',
       title: 'Guardians of Free Speech',
       intro: 'Independent Yemeni foundation restoring journalistic dignity.',
+      // Added missing introText property
+      introText: 'Press House Foundation was established to be a free and independent platform supporting professional journalism in Yemen, providing a safe environment for creativity and professional growth.',
       vision: 'Ambitious Vision',
       visionText: 'Professional and independent Yemeni press serving truth.',
       mission: 'Sacred Mission',
